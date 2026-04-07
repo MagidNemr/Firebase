@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>تطبيق Firebase</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>تسجيل الدخول</h2>
+
+    <input type="email" id="email" placeholder="البريد الإلكتروني">
+    <input type="password" id="password" placeholder="كلمة المرور">
+
+    <button onclick="signUp()">إنشاء حساب</button>
+    <button onclick="login()">تسجيل دخول</button>
+    <button onclick="logout()">تسجيل خروج</button>
+
+    <h3 id="userData"></h3>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
